@@ -1,0 +1,15 @@
+    @font-face {
+        font-family: 'Poppins';
+        src: url('{{ public_path('font/Poppins-Regular.ttf') }}') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    /* Add more font-face declarations for different weights and styles */
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
